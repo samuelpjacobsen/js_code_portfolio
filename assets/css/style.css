@@ -260,8 +260,10 @@ section {
 
 .profile-image {
     position: relative;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border: 5px solid var(--dark-color);
 }
 
 .profile-image img {
@@ -490,6 +492,8 @@ section {
     border-radius: 10px;
     text-align: center;
     transition: var(--transition);
+    word-break: break-word;
+    overflow: hidden;
 }
 
 .contact-item:hover {
