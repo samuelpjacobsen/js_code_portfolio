@@ -6,6 +6,11 @@ const technologies = [
         description: "Modern JavaScript for dynamic web applications"
     },
     {
+        name: "SOLID.js",
+        icon: "fab fa-js",
+        description: "Reactive JavaScript library for building user interfaces"
+    },
+    {
         name: "TypeScript",
         icon: "fab fa-js",
         description: "Type-safe JavaScript for scalable applications"
